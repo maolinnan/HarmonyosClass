@@ -1,0 +1,77 @@
+{
+  "app": {
+    "bundleName": "com.sinyee.babybus.chants.harmonyos",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 3
+    }
+  },
+  "deviceConfig": {
+    "default": {
+      "network": {
+        "usesCleartext": true,
+        "securityConfig": {
+          "domainSettings": {
+            "cleartextPermitted": true,
+            "domains": [
+              {
+                "subDomains": true,
+                "name": "www.baidu.com"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "module": {
+    "package": "com.example.demo",
+    "name": ".DemoAbilityPackage",
+    "reqCapabilities": [
+      "video_support"
+    ],
+    "deviceType": [
+      "default",
+      "car",
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "landscape",
+        "formEnabled": false,
+        "name": "com.example.demo.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "Demo",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "reason": "",
+        "name": "ohos.permission.INTERNET"
+      }
+    ]
+  }
+}
