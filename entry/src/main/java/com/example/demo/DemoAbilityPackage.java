@@ -1,8 +1,10 @@
 package com.example.demo;
 
+import ohos.aafwk.ability.Ability;
 import ohos.aafwk.ability.AbilityPackage;
 
 public class DemoAbilityPackage extends AbilityPackage {
+    private static Ability mainAbility;//应用程序主界面
     //全局application实例
     private static DemoAbilityPackage baseApplication;
     //对界面的计数
@@ -23,5 +25,18 @@ public class DemoAbilityPackage extends AbilityPackage {
      */
     public static DemoAbilityPackage getInstance() {
         return baseApplication;
+    }
+
+    /**
+     * 设置和获取主界面
+     *
+     * @param ability
+     */
+    public static void setMainAbility(Ability ability) {
+        mainAbility = ability;
+    }
+
+    public static Ability getMainAbility() {
+        return mainAbility;
     }
 }

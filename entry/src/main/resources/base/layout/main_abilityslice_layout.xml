@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout xmlns:ohos="http://schemas.huawei.com/res/harmonyos"
+                 ohos:width="match_parent"
+                 ohos:height="match_parent"
+                 ohos:background_element="#ffffff"
+                 ohos:gravity="center">
+    <DirectionalLayout
+            ohos:id="$+id:image_directional_layout"
+            ohos:width="100vp"
+            ohos:height="100vp"
+            ohos:background_element="#ff0000"
+            ohos:orientation="vertical"/>
+</DependentLayout>

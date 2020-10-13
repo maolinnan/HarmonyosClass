@@ -1,4 +1,4 @@
-package com.example.demo.classone;
+package com.example.demo.classthree;
 
 import retrofit2.Call;
 import retrofit2.http.*;
