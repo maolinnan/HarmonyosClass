@@ -9,3 +9,6 @@ https://www.jianshu.com/p/9cb9c852adb2
 
 鸿蒙开发实战系列之二：事件总线EventBus/RxBus
 https://www.jianshu.com/p/7643ddb14a73
+
+鸿蒙开发实战系列之三：网络请求(原生+ Retrofit)
+https://www.jianshu.com/p/dc232b71b8d3
