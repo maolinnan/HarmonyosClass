@@ -1,4 +1,4 @@
-package com.example.demo.classtwo;
+package com.example.demo.class2;
 
 import com.example.demo.DemoAbilityPackage;
 import io.reactivex.rxjava3.annotations.NonNull;

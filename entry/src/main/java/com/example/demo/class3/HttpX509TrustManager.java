@@ -1,4 +1,4 @@
-package com.example.demo.classthree;
+package com.example.demo.class3;
 
 import javax.net.ssl.X509TrustManager;
 import java.security.cert.CertificateException;

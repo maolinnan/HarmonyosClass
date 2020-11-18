@@ -1,4 +1,4 @@
-package com.example.demo.classone;
+package com.example.demo.class1;
 
 import ohos.agp.components.Image;
 import ohos.agp.render.PixelMapHolder;

@@ -1,4 +1,4 @@
-package com.example.demo.classtwo;
+package com.example.demo.class2;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

@@ -1,4 +1,4 @@
-package com.example.demo.classthree;
+package com.example.demo.class3;
 
 /**
  * 服务端访问接口管理

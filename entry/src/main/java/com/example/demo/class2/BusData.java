@@ -1,4 +1,4 @@
-package com.example.demo.classtwo;
+package com.example.demo.class2;
 
 /**
  * RxBus data

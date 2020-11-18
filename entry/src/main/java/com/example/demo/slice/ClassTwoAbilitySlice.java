@@ -1,9 +1,8 @@
 package com.example.demo.slice;
 
-import com.example.demo.classthree.BusinessApiManager;
-import com.example.demo.classtwo.RxBus;
-import com.example.demo.classtwo.Subscribe;
-import com.example.demo.classtwo.ThreadMode;
+import com.example.demo.class2.RxBus;
+import com.example.demo.class2.Subscribe;
+import com.example.demo.class2.ThreadMode;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
 import ohos.agp.colors.RgbColor;
@@ -14,11 +13,9 @@ import ohos.agp.components.Text;
 import ohos.agp.components.element.ShapeElement;
 import ohos.agp.utils.Color;
 import ohos.agp.utils.TextAlignment;
+import ohos.agp.window.dialog.ToastDialog;
 import ohos.hiviewdfx.HiLog;
 import ohos.hiviewdfx.HiLogLabel;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class ClassTwoAbilitySlice extends AbilitySlice {
 
@@ -36,7 +33,7 @@ public class ClassTwoAbilitySlice extends AbilitySlice {
 
         Text text = new Text(this);
         text.setLayoutConfig(config);
-        text.setText("Hello World");
+        text.setText("点击发送事件！");
         text.setTextColor(new Color(0xFF000000));
         text.setTextSize(50);
         text.setTextAlignment(TextAlignment.CENTER);
@@ -66,6 +63,9 @@ public class ClassTwoAbilitySlice extends AbilitySlice {
         }
         //执行对应操作
         HiLog.warn(new HiLogLabel(HiLog.LOG_APP, 0, "===demo==="), "已经接受到事件！");
+        ToastDialog toastDialog = new ToastDialog(getContext());
+        toastDialog.setText("已经接受到事件！");
+        toastDialog.show();
     }
 
     public class RxbusEvent {}

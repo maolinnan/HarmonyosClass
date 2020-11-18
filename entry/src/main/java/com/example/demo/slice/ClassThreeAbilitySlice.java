@@ -1,6 +1,6 @@
 package com.example.demo.slice;
 
-import com.example.demo.classthree.BusinessApiManager;
+import com.example.demo.class3.BusinessApiManager;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
 
@@ -33,7 +33,7 @@ public class ClassThreeAbilitySlice extends AbilitySlice {
 
         Text text = new Text(this);
         text.setLayoutConfig(config);
-        text.setText("Hello World");
+        text.setText("点我访问网络");
         text.setTextColor(new Color(0xFF000000));
         text.setTextSize(50);
         text.setTextAlignment(TextAlignment.CENTER);

@@ -1,4 +1,4 @@
-package com.example.demo.classthree;
+package com.example.demo.class3;
 
 import okhttp3.RequestBody;
 import okhttp3.ResponseBody;

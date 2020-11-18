@@ -1,4 +1,4 @@
-package com.example.demo.classthree;
+package com.example.demo.class3;
 
 import com.example.demo.DemoAbilityPackage;
 import ohos.app.Environment;

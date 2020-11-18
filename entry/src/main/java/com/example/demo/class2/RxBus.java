@@ -1,4 +1,4 @@
-package com.example.demo.classtwo;
+package com.example.demo.class2;
 
 import io.reactivex.rxjava3.core.BackpressureStrategy;
 import io.reactivex.rxjava3.core.Flowable;

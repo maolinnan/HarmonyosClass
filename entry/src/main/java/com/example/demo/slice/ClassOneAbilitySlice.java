@@ -1,29 +1,16 @@
 package com.example.demo.slice;
 
 import com.example.demo.ResourceTable;
-import com.example.demo.classone.RoundRectView;
-import com.example.demo.classthree.BusinessApiManager;
+import com.example.demo.class1.RoundRectView;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
-import ohos.agp.colors.RgbColor;
-import ohos.agp.components.Component;
 import ohos.agp.components.DirectionalLayout;
-import ohos.agp.components.DirectionalLayout.LayoutConfig;
-import ohos.agp.components.Text;
-import ohos.agp.components.element.ShapeElement;
-import ohos.agp.utils.Color;
 import ohos.agp.utils.LayoutAlignment;
-import ohos.agp.utils.TextAlignment;
-import ohos.hiviewdfx.HiLog;
-import ohos.hiviewdfx.HiLogLabel;
 import ohos.media.image.ImageSource;
 import ohos.media.image.PixelMap;
 import ohos.media.image.common.PixelFormat;
 import ohos.media.image.common.Rect;
 import ohos.media.image.common.Size;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 import java.io.InputStream;
 
