@@ -21,6 +21,8 @@ buildscript {
     }
     dependencies {
         classpath files('D:\\harmonyos\\HarmonyosSdk3\\hap-2.0.0.3.jar')
+        classpath "io.objectbox:objectbox-gradle-plugin:2.7.1"
+//        classpath files('D:\\harmonyos\\workspace\\Demo2\\entry\\libs\\objectbox-java-2.7.1.jar')
     }
 }
 

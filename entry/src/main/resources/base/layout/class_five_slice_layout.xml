@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 第5节课布局-->
+<ScrollView xmlns:ohos="http://schemas.huawei.com/res/harmonyos"
+            ohos:width="match_parent"
+            ohos:height="match_parent"
+            ohos:background_element="#ffffff">
+    <DirectionalLayout
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:orientation="vertical">
+        <Button
+                ohos:id="$+id:box_created"
+                ohos:width="100vp"
+                ohos:height="30vp"
+                ohos:background_element="#ffeeeeee"
+                ohos:text="创建NoSql数据库"
+                ohos:left_margin="5vp"
+                ohos:right_margin="5vp"
+                ohos:bottom_margin="5vp"
+                ohos:top_margin="5vp"/>
+
+        <Button
+                ohos:id="$+id:box_insert"
+                ohos:width="100vp"
+                ohos:height="30vp"
+                ohos:background_element="#ffeeeeee"
+                ohos:text="NoSql数据库增加"
+                ohos:left_margin="5vp"
+                ohos:right_margin="5vp"
+                ohos:bottom_margin="5vp"
+                ohos:top_margin="5vp"/>
+
+        <Button
+                ohos:id="$+id:box_delete"
+                ohos:width="100vp"
+                ohos:height="30vp"
+                ohos:background_element="#ffeeeeee"
+                ohos:text="NoSql数据库删除"
+                ohos:left_margin="5vp"
+                ohos:right_margin="5vp"
+                ohos:bottom_margin="5vp"
+                ohos:top_margin="5vp"/>
+
+        <Button
+                ohos:id="$+id:box_updata"
+                ohos:width="100vp"
+                ohos:height="30vp"
+                ohos:background_element="#ffeeeeee"
+                ohos:text="NoSql数据库修改"
+                ohos:left_margin="5vp"
+                ohos:right_margin="5vp"
+                ohos:bottom_margin="5vp"
+                ohos:top_margin="5vp"/>
+
+        <Button
+                ohos:id="$+id:box_query"
+                ohos:width="100vp"
+                ohos:height="30vp"
+                ohos:background_element="#ffeeeeee"
+                ohos:text="NoSql数据库查询"
+                ohos:left_margin="5vp"
+                ohos:right_margin="5vp"
+                ohos:bottom_margin="5vp"
+                ohos:top_margin="5vp"/>
+    </DirectionalLayout>
+</ScrollView>
