@@ -246,7 +246,7 @@ public class ClassFourAbilitySlice extends AbilitySlice implements Component.Cli
         RdbStore rdbStore = helper.getRdbStore(config, 1, new RdbOpenCallback() {
             @Override
             public void onCreate(RdbStore rdbStore) {
-                //创建数据库
+                //创建数据表
                 rdbStore.executeSql("create table if not exists User(userId integer primary key autoincrement,userName text)");
             }
 
